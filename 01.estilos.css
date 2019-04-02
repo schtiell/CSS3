@@ -1,0 +1,22 @@
+
+/* Este estilo aplica para todas las etiquetas h1 que esten presentes en la pagina donde sea invocado el archivo estilos.css */
+
+h1{
+    color: red;
+    font-size: 40px;
+}
+
+h2{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+#unico{
+
+    color: coral;
+    font-size: 50px;
+}
+.colorAzul{
+    color: blue;
+    font-family: Arial;
+}

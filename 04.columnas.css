@@ -1,0 +1,20 @@
+
+/* Estilo aplicado a la etiqueta nav con un margen interno (padding) de 15px */
+nav{
+    background: #a0edf7;
+    padding: 15px
+}
+
+/* Clase columna aplicada a los parrafos de la seccion
+Cada parrablo que utiliza la clase columna tiene un padding de 10px*/
+.columna{
+    background: #a6e3e9;
+    padding: 10px;
+    width: 30%;
+    margin: 10px;
+}
+
+/* Flexbox permite hacer uso flexible de elementos que esten agrupados es decir todos los elementos dentro del section podremos acomodarlos horizontalmente */
+.flexible{
+    display: flex;
+}

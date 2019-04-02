@@ -1,0 +1,13 @@
+/* Estilo flex que permite a las etiquetas de encabezados que son elementos de bloque convertirse en elementos de linea es decir horizontalemente */
+
+h1{
+    background: salmon;
+    display: inline-block;
+}
+
+/* Estilo flex que permite a las etiquetas tipo link que son elementos de linea tomar formar elementos de bloque es decir verticalmente */
+a{
+    background: crimson;
+    display: block;
+}
+

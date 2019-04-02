@@ -1,0 +1,48 @@
+/* Los estilos en css se ordenan de lo general a lo particular, es decir de 
+aquellos que aplican a elementos mas elementos a los que son para elementos mas especificos */
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    margin: 0px auto;
+    width: 90%;
+}
+
+.flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    /* El atributo border-radius permite redondear las esquinas de un rectangulo  */
+    border-radius: 5px;
+    /* La propiedad box-sahdow permite añadir sombra a los elementos, el primer valor corresponde al eje de las x y el segundo al eje de las y, se pueden x, y , -x, -y. El tercer valor corresponde al nivel de degradado y el ultimo al color de la sombra */
+    box-shadow: 5px 5px 10px #888;
+}
+
+.precio{
+    font-size: 45px;
+    color: #51eaea;
+}
+
+.botonPrecio{
+    display: block;
+    background: salmon;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+}
+
+.botonPrecio:hover{
+    background: #f17e7e;
+}

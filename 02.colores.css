@@ -1,0 +1,15 @@
+/* CSS Utiliza 140 colores standar de los cuales podemos hace uso.
+Pero tambien es posible definir nuestros propios colores, rgb y rgba */
+
+.color{
+    color: tomato;
+}
+
+.colorRgb{
+    color: rgb(68, 179, 22);
+}
+
+/* Tambien es posible indicar color en hexadecimal, el valor siempre debe indicarse primero con el simbolo #  */
+.celeste{
+    color: #00cde1;
+}

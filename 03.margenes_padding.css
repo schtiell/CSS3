@@ -1,0 +1,32 @@
+/* Color de fondo background */
+
+#encabezadoUno{
+    background: #dd6b4d;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+
+/* Esta es otroa forma de especificar los margenes
+que indica margen arriba y abajo de 150px y margen izquierda y derecha de 90px */
+#encabezadoDos{
+    background: #9873b9;
+    margin: 150px  90px;
+}
+
+/* Este ejemplo de estilo aplica el 100px de margen a los 4 lados, arriba, izquierda, abajo, derecha, siempre se aplican en sentido de las manecillas del reloj */
+#encabezadoTres{
+    background: #ffe98a;
+    margin: 100px;
+}
+
+/* Se aplica en sentido de las manecillas del reloj, arriba, izquierda, abajo, derecha. No van separados por comas */
+#encabezadoCuatro{
+    background: #b9e6d3;
+    margin: 300px 200px 240px 170px;
+}
+
+/* Paagin es el margen interno de una caja, es decir la separacion del texto contenido en una caja, toma los mismo valores que el margin */
+#unico{
+    background: #009f9d;
+    padding: 70px;
+}

@@ -1,0 +1,19 @@
+
+/* Estilo definido para la clase boton, con un fondo gris, letra color blanco,con un ancho del 25%, con el texto centrado y un margen interno de 5 px */
+.boton{
+    background: #c5c5c5;
+    color: #fff;
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+}
+
+/* La pseudoclase hover permite cambiar el color a la clase por un color verde cuando el puntero del mouse pasa por encima del elemento */
+.boton:hover{
+    background: #30e3ca;
+}
+
+/* La pseudoclase active permite cambiar el color de verde a azul cuando se interactua con ele elemento, es decir cuando se da clic sobre el elemento */
+.boton:active{
+    background: #1eafed;
+}

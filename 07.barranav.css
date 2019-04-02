@@ -1,0 +1,58 @@
+
+/* Diseño aplicado a los elementos html de la clase barranav */
+.barranav{
+    background: #cbf1f5;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Pseudoclase que cambia de color al apuntar los elementos al señalarlos */
+.barranav:hover{
+    background: #a6e3e9;
+}
+
+/* Fondo del elemento html nav */
+nav{
+    background: #c9d6df;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonMenu{
+    background: #cbf1f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    display: none;
+}
+
+
+/* Con este media query se le indica que cuando la pantalla se encuentre entre los 
+0px y los 600 se muestre un elemento de un modo y pasando los 600px se muestre de otro modo*/
+@media(max-width: 600px){
+
+    /* En este caso se va a modificar la etiqueta barra nav
+    Cuando la resolucion se encuentre entre los 0 y 600px el color de fondo del nav cambia */
+
+    nav{
+        background: #a6acec;
+        flex-direction: column;
+    }
+
+    /* Tambien cuando se encuntre en este rango los elementos de la clase barranav tomaran un margen arriba y abajo de 10px y de 0px a la izquierda y derecha*/
+    .barranav{
+        margin: 5px 0px;
+    }
+
+    .botonMenu{
+        display: inline-block;
+    }
+
+    .desaparece{
+        display: none;
+    }
+
+}
